@@ -1,0 +1,307 @@
+nav {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0.5rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover {
+  color: #ffd600;
+}
+
+li img {
+  height: 60px;
+
+}
+li img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+nav ul li:first-child img {
+  height: 60px;           
+  margin-left: -1rem;     
+}
+
+.register-btn {
+  background-color: transparent;      
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 13px;            
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.register-btn:hover {
+  background-color: #444;         
+  color: #ffd600;
+}
+
+main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  
+}
+.main-title {
+      
+      font-family: 'Bebas Neue', Arial, sans-serif;
+    }
+    .tagline, .countdown-subtitle, body, nav ul li a, .register-btn {
+      font-family: 'Poppins', Arial, sans-serif;
+    }
+
+main h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#countdown {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  color: #ffd600;
+  text-align: center;
+}
+
+.countdown-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffd600;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.countdown-subtitle {
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.5rem; 
+}
+
+.countdown-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.countdown-box {
+  background: #1f1e1e;
+  color: #ffd600;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  min-width: 80px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.countdown-box span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.countdown-label {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 0.5rem;
+  letter-spacing: 1px;
+}
+body, h1, .tagline, .countdown-subtitle {
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.main-content {
+  position: relative;        
+  width: 100%;                
+  min-height: 100vh;         
+  background: url('unnamed.png') no-repeat center center/cover;
+  text-align: center;
+  padding: 4rem 2rem;        
+  z-index: 10;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  color: #fff;
+}
+
+.main-content::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);  
+  z-index: 1;
+}
+
+
+.main-content > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.main-title {
+  font-size: 8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 6rem;     
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffd600;
+  text-align: center;
+  margin-bottom: 4rem; 
+  letter-spacing: 1px;
+}
+.event-info{
+  display: flex;
+  justify-content: center;
+}
+.event-info h2{
+ display: inline;
+ justify-content: center;
+}
+.sticky-section {
+
+  position: sticky;
+  top: 0;
+
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+  border-top: 1px solid #222;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-links li a {
+  color: #ffd600;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.footer-links li a:hover {
+  color: #fff;
+}
+
+.event-schedule {
+  padding: 4rem 2rem;
+  background: #111;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.event-schedule .section-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffd600;
+}
+
+.event-schedule .section-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: #ccc;
+}
+
+.schedule-container {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem; 
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+.schedule-day {
+  background: #1c1c1c;
+  padding: 2rem;            /* more padding inside */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.schedule-day h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffd600;
+}
+
+.schedule-day ul {
+  list-style: none;
+  padding: 0;
+}
+
+.schedule-day ul li {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+header, nav, .top-bar {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}

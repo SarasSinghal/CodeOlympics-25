@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Olympics | Hackathon Details</title>
+<link rel="stylesheet" href="utility.css">
+<link rel="stylesheet" href="details.css">
+
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<nav>
+  <ul class="nav-links">
+    <li>
+      <a href="index.html">
+        <img src="logo.png" alt="Code Olympics Logo">
+      </a>
+    </li>
+    <li><a href="eventschedule.html">Event Schedule</a></li>
+    <li><a href="Details.html">Details</a></li>
+    <li><a href="contacts.html">Contact Us</a></li>
+    <li>
+      <button class="register-btn" onclick="window.location.href='registration.html';">Register</button>
+    </li>
+  </ul>
+  
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<div class="side-menu" id="sideMenu">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="eventschedule.html">Event Schedule</a>
+  <a href="Details.html">Details</a>
+  <a href="contacts.html">Contact Us</a>
+  <a href="registration.html">Register</a>
+</div>
+
+
+
+  <section class="main-content">
+    <h1 class="main-title">CODE OLYMPICS'25</h1>
+    <div class="tagline">WHERE ALGORITHMS GO FOR GOLD</div>
+    <div class="countdown-subtitle">Days until the big event begins!</div>
+
+    <div id="countdown" class="countdown-container">
+      <div class="countdown-box">
+        <span id="days">00</span>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="countdown-box">
+        <span id="hours">00</span>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-box">
+        <span id="minutes">00</span>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-box">
+        <span id="seconds">00</span>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+  </section>
+
+  <header class="header">
+    <h1>Hackathon Tracks</h1>
+    <p>Explore the different challenges in Code Olympics</p>
+  </header>
+
+  <main class="hackathon-container">
+    <section class="hackathon-card">
+      <h2>1.AI Innovation Challenge</h2>
+      <p>Push the boundaries of artificial intelligence by creating solutions
+         in areas like healthcare, education, and sustainability.</p>
+      <ul>
+        <li>Duration: 24 hours</li>
+        <li>Team Size: 3–5 members</li>
+        <li>Judging Criteria: Creativity, Feasibility, Impact</li>
+      </ul>
+    </section>
+
+    <section class="hackathon-card">
+      <h2>2.Web Wizards Sprint</h2>
+      <p>Build responsive, user-friendly websites or web apps that solve 
+         real-world problems and showcase creativity.</p>
+      <ul>
+        <li>Duration: 12 hours</li>
+        <li>Team Size: 2–4 members</li>
+        <li>Judging Criteria: Design, Functionality, Usability</li>
+      </ul>
+    </section>
+
+    <section class="hackathon-card">
+      <h2>3.Cybersecurity Capture the Flag</h2>
+      <p>A challenge designed to test your ethical hacking skills, where 
+         teams must solve puzzles and capture hidden “flags”.</p>
+      <ul>
+        <li>Duration: 8 hours</li>
+        <li>Solo or Teams of 2</li>
+        <li>Judging Criteria: Number of flags captured</li>
+      </ul>
+    </section>
+
+<section class="hackathon-card">
+  <h2>4.Game Development Jam</h2>
+  <p>
+    Design and build fun, interactive games using any framework or engine of your choice.
+    Show off your creativity and storytelling through gameplay.
+  </p>
+  <ul>
+    <li>Duration: 24 hours</li>
+    <li>Team Size: 2–5 members</li>
+    <li>Judging Criteria: Creativity, Gameplay, Visual Appeal</li>
+  </ul>
+</section>
+
+<section class="hackathon-card">
+  <h2>5.Blockchain Builders</h2>
+  <p>
+    Create decentralized applications (dApps) or smart contracts
+    that solve real-world problems using blockchain technology.
+  </p>
+  <ul>
+    <li>Duration: 18 hours</li>
+    <li>Team Size: 3–6 members</li>
+    <li>Judging Criteria: Innovation, Security, Practicality</li>
+  </ul>
+</section>
+
+<section class="hackathon-card">
+  <h2>6.IoT & Hardware Challenge</h2>
+  <p>
+    Integrate sensors, microcontrollers, or smart devices to build
+    solutions that connect the digital and physical world.
+  </p>
+  <ul>
+    <li>Duration: 24 hours</li>
+    <li>Team Size: 3–5 members</li>
+    <li>Judging Criteria: Functionality, Hardware Integration, Impact</li>
+  </ul>
+</section>
+
+<section class="hackathon-card">
+  <h2>7.Open Innovation Hack</h2>
+  <p>
+    A freestyle hackathon where participants can work on any project
+    idea of their choice, across any technology or domain.
+  </p>
+  <ul>
+    <li>Duration: 12 hours</li>
+    <li>Team Size: Flexible</li>
+    <li>Judging Criteria: Originality, Execution, Presentation</li>
+  </ul>
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+    <script src="responsive.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+
+body{
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;  
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;  
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #444 #111; 
+}
+.grey{
+  background-color: #141313;
+}
+.pointer{
+  cursor: pointer;
+}
+nav {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0.5rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover {
+  color: #ffd600;
+}
+
+li img {
+  height: 60px;
+
+}
+li img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+nav ul li:first-child img {
+  height: 60px;           
+  margin-left: -1rem;     
+}
+
+.register-btn {
+  background-color: #242323;      
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 13px;           
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.register-btn:hover {
+  background-color: #444;         
+  color: #ffd600;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.main-content {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url('unnamed.png') no-repeat center center/cover;
+  text-align: center;
+  padding: 4rem 2rem;
+  z-index: 10;
+  color: #fff;
+}
+
+.main-content::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+.main-content > * {
+  position: relative;
+  z-index: 2; 
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffd600;
+  margin-bottom: 2rem;
+}
+
+.countdown-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.countdown-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.countdown-box {
+  background: #1f1e1e;
+  color: #ffd600;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  min-width: 80px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.countdown-box span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.countdown-label {
+  font-size: 0.9rem;
+  color: #fff;
+}

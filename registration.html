@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration | Code Olympics</title>
+<link rel="stylesheet" href="utility.css">
+<link rel="stylesheet" href="register.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<nav>
+  <ul class="nav-links">
+    <li>
+      <a href="index.html">
+        <img src="logo.png" alt="Code Olympics Logo">
+      </a>
+    </li>
+    <li><a href="eventschedule.html">Event Schedule</a></li>
+    <li><a href="Details.html">Details</a></li>
+    <li><a href="contacts.html">Contact Us</a></li>
+    <li>
+      <button class="register-btn" onclick="window.location.href='registration.html';">Register</button>
+    </li>
+  </ul>
+  
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<div class="side-menu" id="sideMenu">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="eventschedule.html">Event Schedule</a>
+  <a href="Details.html">Details</a>
+  <a href="contacts.html">Contact Us</a>
+  <a href="registration.html">Register</a>
+</div>
+
+  <section class="registration-section">
+    <div class="registration-box">
+      <h1>Register for Code Olympics</h1>
+      <p>Join us for an exciting journey of coding, innovation, and competition!</p>
+
+      <form class="registration-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="text" placeholder="College/Organization" required>
+        <select required>
+          <option value="" disabled selected>Select Hackathon Track</option>
+          <option>AI Innovation Challenge</option>
+          <option>Web Wizards Sprint</option>
+          <option>Cybersecurity Capture the Flag</option>
+          <option>Game Development Jam</option>
+          <option>Blockchain Builders</option>
+          <option>IoT & Hardware Challenge</option>
+          <option>Open Innovation Hack</option>
+        </select>
+        <input type="number" placeholder="Team Size" min="1" max="6" required>
+        <textarea placeholder="Additional Notes (optional)" rows="4"></textarea>
+
+        <button type="submit">Submit Registration</button>
+      </form>
+    </div>
+  </section>
+  <script src="script.js"></script>
+    <script src="responsive.js"></script>
+</body>
+</html>

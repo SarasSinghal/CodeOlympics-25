@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Olympics | Contact Us</title>
+<link rel="stylesheet" href="utility.css">
+
+<link rel="stylesheet" href="contacts.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+ <nav>
+  <ul class="nav-links">
+    <li>
+      <a href="index.html">
+        <img src="logo.png" alt="Code Olympics Logo">
+      </a>
+    </li>
+    <li><a href="eventschedule.html">Event Schedule</a></li>
+    <li><a href="Details.html">Details</a></li>
+    <li><a href="contacts.html">Contact Us</a></li>
+    <li>
+      <button class="register-btn" onclick="window.location.href='registration.html';">Register</button>
+    </li>
+  </ul>
+  
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<div class="side-menu" id="sideMenu">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="eventschedule.html">Event Schedule</a>
+  <a href="Details.html">Details</a>
+  <a href="contacts.html">Contact Us</a>
+  <a href="registration.html">Register</a>
+</div>
+
+
+  
+  <section class="main-content">
+    <h1 class="main-title">CODE OLYMPICS'25</h1>
+    <div class="tagline">WHERE ALGORITHMS GO FOR GOLD</div>
+    <div class="countdown-subtitle">Days until the big event begins!</div>
+
+    <div id="countdown" class="countdown-container">
+      <div class="countdown-box">
+        <span id="days">00</span>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="countdown-box">
+        <span id="hours">00</span>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-box">
+        <span id="minutes">00</span>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-box">
+        <span id="seconds">00</span>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+  </section>
+ 
+<section class="contact-section">
+  <h2>Contact Us</h2>
+  <p>Have questions or need assistance? Reach out to us!</p>
+
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Event Organizers</h3>
+      <p><strong>Email:</strong> info@codeolympics.com</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Location:</strong> VIT Chennai, India</p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+  
+  <script src="script.js"></script>
+  <script src="responsive.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODE OLYMPICS 2025-WHERE ALGORITHMS GO FOR GOLD</title>
+<link rel="stylesheet" href="utility.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+ <nav>
+  <ul class="nav-links">
+    <li>
+      <a href="index.html">
+        <img src="logo.png" alt="Code Olympics Logo">
+      </a>
+    </li>
+    <li><a href="eventschedule.html">Event Schedule</a></li>
+    <li><a href="Details.html">Details</a></li>
+    <li><a href="contacts.html">Contact Us</a></li>
+    <li>
+      <button class="register-btn" onclick="window.location.href='registration.html';">Register</button>
+    </li>
+  </ul>
+  
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<div class="side-menu" id="sideMenu">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="eventschedule.html">Event Schedule</a>
+  <a href="Details.html">Details</a>
+  <a href="contacts.html">Contact Us</a>
+  <a href="registration.html">Register</a>
+</div>
+  <main>
+    <section class="main-content sticky-section">
+      <h1 class="main-title pointer">
+        CODE OLYMPICS'25
+      </h1>
+      <div class="tagline pointer">
+        WHERE ALGORITHMS GO FOR GOLD
+      </div>
+      <div class="countdown-subtitle">DAYS UNTIL CODE OLYMPICS BEGINS!</div>
+      <div id="countdown" class="countdown-container">
+        <div class="countdown-box pointer">
+          <span id="days">00</span>
+          <div class="countdown-label">DAYS</div>
+        </div>
+        <div class="countdown-box pointer">
+          <span id="hours">00</span>
+          <div class="countdown-label">HOURS</div>
+        </div>
+        <div class="countdown-box  pointer">
+          <span id="minutes">00</span>
+          <div class="countdown-label">MINUTES</div>
+        </div>
+        <div class="countdown-box pointer">
+          <span id="seconds">00</span>
+          <div class="countdown-label">SECONDS</div>
+        </div>
+      </div>
+    </section>
+    <section class="event grey">
+      <div class="event-info">
+        <h2>ABOUT THE HACKATHON</h2>
+        <p>
+          CODE OLYMPICS 2025 IS A PREMIER HACKATHON EVENT DESIGNED TO CHALLENGE YOUR PROBLEM-SOLVING SKILLS AND CREATIVITY. COMPETE WITH THE BRIGHTEST MINDS, SOLVE REAL-WORLD PROBLEMS, AND SHOWCASE YOUR TALENT IN ALGORITHMS, WEB DEVELOPMENT, AND SOFTWARE ENGINEERING.
+        </p>
+      </div>
+      <div class="highlights">
+        <h2>EVENT HIGHLIGHTS</h2>
+        <ul>
+          <li class="grey">TEAM-BASED CODING CHALLENGES</li>
+          <li class="grey">WORKSHOPS ON MODERN WEB TECHNOLOGIES</li>
+          <li class="grey">NETWORKING WITH INDUSTRY PROFESSIONALS</li>
+          <li class="grey">EXCITING PRIZES AND CERTIFICATES FOR WINNERS</li>
+        </ul>
+      </div>
+      <div class="extra"> 
+        <h2>WHO CAN PARTICIPATE?</h2>
+        <p>
+          THE HACKATHON IS OPEN TO ALL UNDERGRADUATE AND POSTGRADUATE STUDENTS PASSIONATE ABOUT CODING AND TECHNOLOGY. WHETHER YOU ARE A BEGINNER OR AN EXPERIENCED DEVELOPER, THERE IS A PLACE FOR YOU AT CODE OLYMPICS!
+        </p>
+        <h2>RECRUITMENT & OPPORTUNITIES</h2>
+        <p>
+          TOP PERFORMERS WILL GET A CHANCE TO BE RECRUITED FOR WEB DEVELOPMENT ROLES AND INTERNSHIPS. SHOWCASE YOUR SKILLS AND GRAB THE OPPORTUNITY TO WORK WITH LEADING TECH COMPANIES.
+        </p>
+        <h2>HOW TO REGISTER?</h2>
+        <p>
+          CLICK THE <strong>REGISTER</strong> BUTTON ABOVE TO SIGN UP FOR THE EVENT. FOR MORE DETAILS, CONTACT US OR VISIT THE EVENT PAGE.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Code Olympics. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+  <script src="responsive.js"></script>
+</body>
+</html>

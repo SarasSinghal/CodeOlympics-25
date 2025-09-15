@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODE OLYMPICS'25 | Event Schedule</title>
+  <link rel="stylesheet" href="utility.css">
+<link rel="stylesheet" href="style1.css">
+
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<nav>
+  <ul class="nav-links">
+    <li>
+      <a href="index.html">
+        <img src="logo.png" alt="Code Olympics Logo">
+      </a>
+    </li>
+    <li><a href="eventschedule.html">Event Schedule</a></li>
+    <li><a href="Details.html">Details</a></li>
+    <li><a href="contacts.html">Contact Us</a></li>
+    <li>
+      <button class="register-btn" onclick="window.location.href='registration.html';">Register</button>
+    </li>
+  </ul>
+  
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<div class="side-menu" id="sideMenu">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="eventschedule.html">Event Schedule</a>
+  <a href="Details.html">Details</a>
+  <a href="contacts.html">Contact Us</a>
+  <a href="registration.html">Register</a>
+</div>
+
+
+  <section class="main-content">
+    <h1 class="main-title">CODE OLYMPICS'25</h1>
+    <div class="tagline">WHERE ALGORITHMS GO FOR GOLD</div>
+    <div class="countdown-subtitle">Days until the big event begins!</div>
+
+    <div id="countdown" class="countdown-container">
+      <div class="countdown-box">
+        <span id="days">00</span>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="countdown-box">
+        <span id="hours">00</span>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-box">
+        <span id="minutes">00</span>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-box">
+        <span id="seconds">00</span>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+  </section>
+
+    <section class="event-schedule">
+  <h2 class="section-title">Event Schedule</h2>
+  <p class="section-subtitle">Get ready for 4 days of innovation, coding, and creativity!</p>
+
+  <div class="schedule-container">
+    <div class="schedule-day">
+      <h3>Day 1</h3>
+      <h4>12th October</h4>
+      <ul>
+        <li><strong>Hackathon 1:</strong> AI Innovation Challenge</li>
+        <li><strong>Hackathon 2:</strong> Web Wizards Sprint</li>
+      </ul>
+    </div>
+
+    <div class="schedule-day">
+      <h3>Day 2</h3>
+      <h4>13th October</h4>
+      <ul>
+        <li><strong>Hackathon 3:</strong> Cybersecurity Capture the Flag</li>
+        <li><strong>Hackathon 4:</strong> Game Development Jam</li>
+      </ul>
+    </div>
+
+    <div class="schedule-day">
+      <h3>Day 3</h3>
+      <h4>14th October</h4>
+      <ul>
+        <li><strong>Hackathon 5:</strong> Blockchain Builders</li>
+        <li><strong>Hackathon 6:</strong> IoT & Hardware Challenge</li>
+      </ul>
+    </div>
+
+    <div class="schedule-day">
+      <h3>Day 4</h3>
+      <h4>17th October</h4>
+      <ul>
+        <li><strong>Hackathon 7:</strong> Open Innovation Hack</li>
+        <li><strong>Closing Ceremony & Prize Distribution</strong></li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+  </main>
+
+      <footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Code Olympics. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="script.js"></script>
+  <script src="responsive.js"></script>
+</body>
+</html>
