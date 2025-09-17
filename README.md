@@ -30,18 +30,7 @@ CSS – Styling & Layout
 
 JavaScript – Interactivity (e.g., countdown timer)
 
-🚀 Getting Started
-Clone this repository:
-
-bash
-Copy code
-git clone https://github.com/sarassinghal/CodeOlympics-25.git
-Open index.html in your browser to view the site locally.
-
-Edit HTML/CSS/JS files to update content, design, or functionality.
-
 📌 Deployment
-This project is deployed using GitHub Pages.
 You can view it live here: https://sarassinghal.github.io/CodeOlympics-25/
 
 📩 Contact
